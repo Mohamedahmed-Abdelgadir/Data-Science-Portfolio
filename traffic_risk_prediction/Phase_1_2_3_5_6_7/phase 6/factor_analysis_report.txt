@@ -1,0 +1,17 @@
+--- Factor Analysis Interpretation Report ---
+
+**Factor_1**: Strongly influenced by ['wind_speed_kmh', 'vehicle_count', 'avg_speed_kmh']
+   -> Interpretation: Likely: Weather Severity Factor
+
+**Factor_2**: Strongly influenced by ['avg_speed_kmh', 'vehicle_count', 'accident_count']
+   -> Interpretation: Likely: Traffic Flow/Stress Factor
+
+**Factor_3**: Strongly influenced by ['rain_mm', 'temperature_c', 'vehicle_count']
+   -> Interpretation: Likely: Weather Severity Factor
+
+
+--- Variance Explained ---
+                Factor_1  Factor_2  Factor_3
+SS Loadings     1.012013  0.456069  0.324153
+Proportion Var  0.144573  0.065153  0.046308
+Cumulative Var  0.144573  0.209726  0.256034
